@@ -36,4 +36,9 @@ Let's all do R! `r knitr::asis_output("\U0001F606")`
 
 ![](https://media.giphy.com/media/xUOxf7XfmpxuSode1O/giphy.gif)
 
+```{r}
+library(here)
+# here() starts at C:/Users/alexv2/Desktop/twinkly-octopus
+#df <- read.csv(here("data/mydata.csv"))
 
+```
